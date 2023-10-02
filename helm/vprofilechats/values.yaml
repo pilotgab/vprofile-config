@@ -8,7 +8,7 @@ image:
   repository: nginx
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: 75f3b6676ff13952d0b8fccfc1b4716e3028505c
+  tag: 12236d40c9cf41cfecbccd14965fcc020cbf01b5
 
 imagePullSecrets: []
 nameOverride: ""
