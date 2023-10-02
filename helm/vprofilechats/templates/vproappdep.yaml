@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: vproapp
-        image: captaingab/vproapp:${{ github.sha }}
+        image: captaingab/vproapp:latest
         ports:
         - name: vproapp-port
           containerPort: 8080
