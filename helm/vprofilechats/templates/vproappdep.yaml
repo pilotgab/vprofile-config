@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: vproapp
-        image: captaingab/vproapp:75f3b6676ff13952d0b8fccfc1b4716e3028505c
+        image: captaingab/vproapp
         ports:
         - name: vproapp-port
           containerPort: 8080
